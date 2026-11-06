@@ -1,0 +1,106 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "ac97ce39-a159-4ba7-bc53-345a7c19e3ee")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 17.78 17.78)
+		(size 60.96 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "be8f8123-57cc-4304-86c2-50a316cfbf77")
+		(property "Sheetname" "Regulation de tension"
+			(at 17.78 17.0684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "distribution_energie.kicad_sch"
+			(at 17.78 60.2746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "carte regulation de tension"
+				(path "/ac97ce39-a159-4ba7-bc53-345a7c19e3ee"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 95.25 20.32)
+		(size 81.28 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c80b9e5c-45a4-4e5c-a6bc-1af848b04db2")
+		(property "Sheetname" "stm32-lora-GPS"
+			(at 95.25 19.6084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "stm32-lora-GPS.kicad_sch"
+			(at 95.25 62.8146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "carte regulation de tension"
+				(path "/ac97ce39-a159-4ba7-bc53-345a7c19e3ee"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
