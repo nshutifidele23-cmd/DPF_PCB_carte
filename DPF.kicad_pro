@@ -656,18 +656,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "carte regulation de tension.kicad_sch",
-        "name": "DPF (page 1)",
+        "filename": "DPF.kicad_sch",
+        "name": "DPF",
         "uuid": "ac97ce39-a159-4ba7-bc53-345a7c19e3ee"
       }
     ],
-    "used_designators": "#SYM1,PS1-3,+Vin1-2,D1-21,#PWR1-18,R1-9,J1-6,U1-3,\\-Vin1-2,traces_50_ohms1,Stm32F1",
+    "used_designators": "#SYM1,PS1-3,+Vin1-2,D1-21,#PWR1-18,R1-9,J1-7,U1-3,\\-Vin1-2,traces_50_ohms1,Stm32F1,Q1-2,SW1-2",
     "variants": []
   },
   "sheets": [
     [
       "ac97ce39-a159-4ba7-bc53-345a7c19e3ee",
-      "DPF (page 1)"
+      "DPF"
     ],
     [
       "be8f8123-57cc-4304-86c2-50a316cfbf77",

@@ -44,7 +44,7 @@
 			)
 		)
 		(instances
-			(project "carte regulation de tension"
+			(project "DPF"
 				(path "/ac97ce39-a159-4ba7-bc53-345a7c19e3ee"
 					(page "2")
 				)
@@ -90,7 +90,7 @@
 			)
 		)
 		(instances
-			(project "carte regulation de tension"
+			(project "DPF"
 				(path "/ac97ce39-a159-4ba7-bc53-345a7c19e3ee"
 					(page "3")
 				)

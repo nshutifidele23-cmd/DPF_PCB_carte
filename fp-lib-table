@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Regulateur LTC3780") (type "KiCad") (uri "${KIPRJMOD}/Regulateur LTC3780/Regulateur LTC3780.pretty") (options "") (descr ""))
+)
