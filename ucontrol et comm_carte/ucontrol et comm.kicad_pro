@@ -530,7 +530,7 @@
         "microvia_diameter": 0.8,
         "name": "RF",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.2,
         "tuning_profile": "",
@@ -541,11 +541,24 @@
         "microvia_diameter": 0.7,
         "name": "connexion GNSS",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.8,
         "tuning_profile": "",
         "via_drill": 0.3
+      },
+      {
+        "clearance": 0.25,
+        "microvia_diameter": 0.15,
+        "microvia_drill": 0.15,
+        "name": "power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4
       }
     ],
     "meta": {
@@ -561,6 +574,22 @@
       {
         "netclass": "RF",
         "pattern": "connexion passive LORA"
+      },
+      {
+        "netclass": "power",
+        "pattern": "+3.3V"
+      },
+      {
+        "netclass": "power",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "power",
+        "pattern": "PWM_moteur"
+      },
+      {
+        "netclass": "power",
+        "pattern": "VCC_RF"
       }
     ]
   },
@@ -568,7 +597,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "./",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -771,7 +800,7 @@
         "uuid": "c2d6894b-8963-4c11-9478-3023fe3b4730"
       }
     ],
-    "used_designators": "C1-5,600ohm@100mHz1,D5-7,#PWR7-11,#PWR14-18,FB1,Stm32F207Z1,J3-10,U2",
+    "used_designators": "C1-5,600ohm@100mHz1,D_TVS1-2,D5-7,#PWR7-11,#PWR14-18,FB1,Stm32F207Z1,J1-10,U2,uart_tx1,Antenne_GNSS_1.575GHz1,Antenne_Lora_868MhZ1,MAX\\-M10S\\-00B1,MISO_tx1,MOSI_rx1,NUCLEO144\\-F207ZG1,uart_rx1,R4-5",
     "variants": []
   },
   "sheets": [
